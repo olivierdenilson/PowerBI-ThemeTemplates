@@ -1,0 +1,47 @@
+{
+	"name": "CardTemplate",
+	"visualStyles": {
+		"card": {
+			"*": {
+				"labels": [{
+					"color": { "solid": { "color": "#000000"}},
+					"labelDisplayUnits": "0",
+					"labelPrecision": 0,
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"categoryLabels": [{
+					"show": true,
+					"color": { "solid": { "color": "#01B8AA"}},
+					"fontSize": 10,
+					"fontFamily": "Verdana"
+				}],
+				"wordWrap": [{
+					"show": true
+				}],
+				"background": [{
+						"show": true,
+						"color": {
+							"solid": {
+								"color": "#000000"
+							}
+						},
+						"transparency": 0
+					}
+				],
+				  "title": [{
+				    "show": true,
+				    "fontColor": { "solid": { "color": "#ffffff" } },
+				    "background": { "solid": { "color": "#062b60" } },
+				    "alignment": "left",
+				    "fontSize": 11,
+				    "fontFamily": "Segoe UI"
+				  }],
+				  "border": [{
+				    "show": true,
+				    "color": { "solid": { "color": "#062b60"}}
+				  }]
+			}
+		}
+	}
+}
